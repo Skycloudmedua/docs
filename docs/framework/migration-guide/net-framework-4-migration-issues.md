@@ -1,7 +1,7 @@
 ---
 title: ".NET Framework 4 migration issues"
 ms.date: "05/02/2017"
-helpviewer_keywords: 
+helpviewer_keywords:
   - ".NET Framework 4, migration"
   - "application compatibility"
 ms.assetid: df478548-8c05-4de2-8ba7-adcdbe1c2a60
@@ -319,12 +319,12 @@ Namespaces: <xref:System.Xml.Linq>; <xref:System.Xml.Schema>, <xref:System.Xml.X
 
 ### Concepts
 
-[Migration Guide to the .NET Framework 4](https://msdn.microsoft.com/library/ff657133(v=vs.100).aspx)   
-[What's New in the .NET Framework 4](https://msdn.microsoft.com/library/ms171868(v=vs.100).aspx)   
-[Version Compatibility in the .NET Framework](../../../docs/framework/migration-guide/version-compatibility.md)   
+[Migration Guide to the .NET Framework 4](https://msdn.microsoft.com/library/ff657133(v=vs.100).aspx)
+[What's New in the .NET Framework 4](https://msdn.microsoft.com/library/ms171868(v=vs.100).aspx)
+[Version Compatibility in the .NET Framework](../../../docs/framework/migration-guide/version-compatibility.md)
 [Migrating Office Solutions to the .NET Framework 4](https://msdn.microsoft.com/library/ee207231.aspx)
 
 ### Other resources
 
-[What's Obsolete in the .NET Framework](https://msdn.microsoft.com/library/ee461502(v=vs.110).aspx)   
+[What's Obsolete in the .NET Framework](https://msdn.microsoft.com/library/ee461502(v=vs.110).aspx)
 [Migration Issues for .NET Framework 4 Applications: Beta 2 to RTM](http://go.microsoft.com/fwlink/?LinkId=191505)
