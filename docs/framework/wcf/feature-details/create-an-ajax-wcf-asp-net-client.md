@@ -17,7 +17,7 @@ This topic shows how to use Visual Studio to create an AJAX-enabled Windows Comm
 
 1. Name the Project **SandwichServices** and click **OK**.
 
-1. In the **New ASP.NET Web Application** dialog, select **Empty** and then select **OK**.
+1. In the **New ASP.NET Web Application** dialog, select **Web Forms** and then select **OK**.
 
 ## To create the WCF AJAX-enabled service
 
