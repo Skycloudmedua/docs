@@ -31,10 +31,10 @@ This topic shows how to use Visual Studio to create an AJAX-enabled Windows Comm
 
    *WebForm1.aspx* opens in **Source** view.
 
-1. Add the following markup inside the **<body>** tags:
+1. Add the following markup inside the **\<body>** tags:
 
    ```html
-   <input type="button"  value="Price of 3 sandwiches" onclick="Calculate()"/>
+   <input type="button" value="Price of 3 sandwiches" onclick="Calculate()"/>
    <br />
    <span id="additionResult"></span>
    ```
@@ -51,7 +51,7 @@ This topic shows how to use Visual Studio to create an AJAX-enabled Windows Comm
 
    *CostService.svc.cs* opens in the editor.
 
-5.  Implement the operations in the service. Add the following method to the CostService class to calculate the cost of a number of sandwiches:
+5.  Implement the operation in the service. Add the following method to the CostService class to calculate the cost of a quantity of sandwiches:
 
    ```csharp
    [OperationContract]
@@ -77,7 +77,7 @@ This topic shows how to use Visual Studio to create an AJAX-enabled Windows Comm
    </Services>
    ```
 
-1. Add the code for the Javascript function Calculate(). Place the following code in the **head** section of the web form:
+1. Add the code for the Javascript function `Calculate()`. Place the following code in the **head** section of the web form:
 
     ```javascript
     <script type="text/javascript">
@@ -98,7 +98,7 @@ This topic shows how to use Visual Studio to create an AJAX-enabled Windows Comm
 
 ## Run the program
 
-Press **Ctrl**+**F5** to launch the service and the web client. Click the **Price of 3 sandwiches** button to generate the expected output of "3.75".
+Make sure that *WebForm1.aspx* has focus, and then press **Start** button to launch the web client. It has a green triangle and says something like **IIS Express (Microsoft Edge)**. Or, you can press **F5**. Click the **Price of 3 sandwiches** button to generate the expected output of "3.75".
 
 ## Example code
 
