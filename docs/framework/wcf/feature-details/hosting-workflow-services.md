@@ -30,13 +30,13 @@ A workflow service must be hosted for it to respond to incoming messages. Workfl
     ```
 
     > [!NOTE]
-    >  Behaviors cannot be specified in a .xamlx file, so you must use a Web.config if you need to specify behavior settings.
+    > Behaviors cannot be specified in a .xamlx file, so you must use a Web.config if you need to specify behavior settings.
 
 -   Place a .xamlx file that defines the workflow service in an IIS/WAS virtual directory. In addition, place a .svc file in the virtual directory. The .svc file allows you to specify a custom Web service host factory, apply custom behavior, or load configuration from a custom location.
 
 -   Place an assembly in the IIS/WAS virtual directory that contains an activity that uses the WCF messaging activities.
 
- A .xamlx file that defines a workflow service must contain a <`Service`> root element or a root element that contains any type derived from <xref:System.Workflow.ComponentModel.Activity>. When using the Visual Studio 2012 Activity template a .xamlx file is created. When using the WCF Workflow Service template a .xamlx file is created.
+ A .xamlx file that defines a workflow service must contain a <`Service`> root element or a root element that contains any type derived from <xref:System.Workflow.ComponentModel.Activity>. When using the Visual Studio activity template, a .xamlx file is created. When using the WCF Workflow Service template, a .xamlx file is created.
 
 ## Hosting Workflow Services under Windows Server App Fabric
  Hosting a workflow service under Windows Server App Fabric is done in the same way as hosting under IIS/WAS. The only difference is the fact that Windows Server App Fabric is installed. Windows Server App Fabric provides tools that are added to Internet Information Services Manager, as well as powershell commandlets. These tools simplify deploying, managing, and tracking of workflow services and WCF services. . For more information about Windows Server App Fabric see [Windows Server App Fabric](http://go.microsoft.com/fwlink/?LinkId=193037)

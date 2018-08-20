@@ -53,29 +53,29 @@ public class ExternalizedPolicy4Activity<TResult>: CodeActivity
 
  This sample contains two client applications: ImperativeCodeClientSample and DesignerClientSample. The ImperativeCodeClientSample client shows how to configure and run the ExternalizedPolicy4 activity using C# imperative code. The DesignerClientSample shows how to configure and run the ExternalizedPolicy4 activity using the designer.
 
-#### To run the ImperativeCodeClientSample application
+### To run the ImperativeCodeClientSample application
 
-1.  Using the Visual Studio 2012, open the Policy4sample.sln solution file.
+1.  Using Visual Studio, open the *Policy4sample.sln* solution file.
 
 2.  In **Solution Explorer**, right-click the **ImperativeCodeClientSample** project and then select **Set as startup project**.
 
-3.  To run the project, press CTRL+F5.
+3.  To run the project, press **Ctrl**+**F5**.
 
 #### To run the DesignerClientSample application
 
-1.  Using the Visual Studio 2012, open the Policy4sample.sln solution file.
+1.  Using Visual Studio, open the *Policy4sample.sln* solution file.
 
 2.  In **Solution Explorer**, right-click the **DesignerClientSample** project and then select **Set as startup project**.
 
-3.  Press CTRL+SHIFT+B to compile the project.
+3.  Press **Ctrl**+**Shift**+**B** to compile the project.
 
-4.  Press CTRL+F5 to run the project.
+4.  Press **Ctrl**+**F5** to run the project.
 
 > [!IMPORTANT]
->  The samples may already be installed on your machine. Check for the following (default) directory before continuing.
+> The samples may already be installed on your machine. Check for the following (default) directory before continuing.
 >
->  `<InstallDrive>:\WF_WCF_Samples`
+> `<InstallDrive>:\WF_WCF_Samples`
 >
->  If this directory does not exist, go to [Windows Communication Foundation (WCF) and Windows Workflow Foundation (WF) Samples for .NET Framework 4](http://go.microsoft.com/fwlink/?LinkId=150780) to download all Windows Communication Foundation (WCF) and [!INCLUDE[wf1](../../../../includes/wf1-md.md)] samples. This sample is located in the following directory.
+> If this directory does not exist, go to [Windows Communication Foundation (WCF) and Windows Workflow Foundation (WF) Samples for .NET Framework 4](http://go.microsoft.com/fwlink/?LinkId=150780) to download all Windows Communication Foundation (WCF) and [!INCLUDE[wf1](../../../../includes/wf1-md.md)] samples. This sample is located in the following directory.
 >
 >  `<InstallDrive>:\WF_WCF_Samples\WF\Scenario\ActivityLibrary\Rules-ExternalizedPolicy4`

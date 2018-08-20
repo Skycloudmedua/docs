@@ -74,7 +74,7 @@ The [!INCLUDE[adonet_ef](../../../../../includes/adonet-ef-md.md)] is a set of t
 
 <a name="Tools"></a>
 ## Entity Data Model Tools
- Together with the [!INCLUDE[adonet_ef](../../../../../includes/adonet-ef-md.md)] runtime, the Visual Studio 2012 includes the mapping and modeling tools. For more information, see [Modeling and Mapping](../../../../../docs/framework/data/adonet/ef/modeling-and-mapping.md).
+ Together with the [!INCLUDE[adonet_ef](../../../../../includes/adonet-ef-md.md)] runtime, Visual Studio 2012 includes the mapping and modeling tools. For more information, see [Modeling and Mapping](../../../../../docs/framework/data/adonet/ef/modeling-and-mapping.md).
 
 <a name="LearnMore"></a>
 ## Learning More
